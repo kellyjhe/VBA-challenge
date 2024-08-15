@@ -1,9 +1,18 @@
 Module 2 Challenge
 
+Screenshots of multiple_year_stock_data:
+<img width="1100" alt="Q1 results" src="https://github.com/user-attachments/assets/79d85316-2c8f-4186-a502-b9d2c6f557fa">
+<img width="1143" alt="Q2 results" src="https://github.com/user-attachments/assets/ba332410-f478-425d-91e6-6daf212495f3">
+
+Screenshots of alphabetical_testing:
+<img width="1138" alt="Screenshot 2024-08-15 at 4 27 30 PM" src="https://github.com/user-attachments/assets/8474c02c-6f8d-462d-a8e2-daca7703d311">
+
+
 Code sources:
 
 Used help from Xpert Learning code:
 For percentage formatting
+  
   Sub FormatAsPercentage()
       ' Define the range you want to format as a percentage
       Dim rng As Range
@@ -14,11 +23,11 @@ For percentage formatting
 
       ' Optionally, you can also set the value as a percentage directly
       rng.Value = 0.75  ' This will display 75.00% in the cell
-
   End Sub
 
 
 To find max
+  
   Sub FindMaxNumber()
     Dim ws As Worksheet
     Dim lastRow As Long
